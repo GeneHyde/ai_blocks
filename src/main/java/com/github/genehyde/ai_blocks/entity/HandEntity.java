@@ -15,6 +15,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 
+/**
+ * Monster Hand entity, used to test simple behavior changes
+ */
 public class HandEntity extends ProgrammableModEntity {
 
     public HandEntity(EntityType<? extends HandEntity> type, World worldIn) {

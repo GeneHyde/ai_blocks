@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * Data object for storing goals for programmable entities
+ */
 public class SimpleProgrammableEntityData {
     private final Map<Integer, List<String>> goals;
 

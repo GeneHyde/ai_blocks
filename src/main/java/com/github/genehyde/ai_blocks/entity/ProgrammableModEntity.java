@@ -18,6 +18,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Programmable entity that you can add additional goals to with an Simple AI Block
+ */
 public abstract class ProgrammableModEntity extends CreatureEntity {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final DataParameter<SimpleProgrammableEntityData> GOAL_DATA;

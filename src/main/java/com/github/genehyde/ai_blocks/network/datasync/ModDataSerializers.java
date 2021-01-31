@@ -9,6 +9,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 
+/**
+ * Additional serializers for ai data objects
+ */
 public class ModDataSerializers extends DataSerializers {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final IDataSerializer<SimpleProgrammableEntityData> GOAL_DATA =

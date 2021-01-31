@@ -1,0 +1,7 @@
+{
+  "loader": "forge:obj",
+  "flip-v": true,
+  "ambientToFullbright": false,
+  "materialLibraryOverride": "explosionbeam:models/entity/hand_materials.mtl",
+  "model" : "explosionbeam:models/entity/hand.obj"
+}
